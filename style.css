@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://i.pinimg.com/originals/40/1c/a9/401ca91bd4b579644323b1dd9fb19330.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center !important;
+    color: white !important;
+    font-weight: 800 !important;
+    letter-spacing: 2px !important;
+    font-size: 2.5rem !important;
+    font-family: 'Delius Swash Caps', cursive !important;
+}
+
+h1 sub {
+    color: black !important;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(31 28 28 / 48%);
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+input {
+    width: 25% !important;
+    margin-top: 4px !important;
+    border: 2px solid #325e8c !important;
+    padding: 10px 25px !important;
+    border-radius: 10px !important;
+}
+
+input::placeholder {
+    color: #325e8c !important;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    padding: 7px 18px;
+    border-radius: 10px !important;
+    margin-top: 8px;
+    background-color: #325e8c;
+    color: white;
+    font-weight: 400;
+    border: 2px solid white;
+}
+
+button:focus {
+    visibility: hidden;
+}
+
+#card {
+    border: 3px solid #325e8c;
+    box-shadow: 0px 0px 20px rgb(0 0 0);
+}
+
+#btn {
+    float: right;
+}
+
+#rupees {
+    float: left;
+}
+
+#remainBill, #totalBudget {
+    border-right: 2px solid #325e8c;
+    padding-right: 25px;
+}
+
+#heading {
+    font-size: 25px;
+}
